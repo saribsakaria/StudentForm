@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Student form</title>
+	<style>
+	td {
+	width:100px;
+	height:50px;
+	}
+	</style>
+</head>
+<body>
+	<center>
+	
+	<h1><u>Student Registration Form</u></h1>
+	
+	</center>
+	
+	<form method="POST" action="https://formpost.app/saribsmart97@gmail.com">
+	<table>
+	<tr>
+	<td>First Name</td>
+	<td><input type="text" placeholder="Enter your first name" name="first_name" /></td>
+	</tr>
+	
+	<tr>
+	<td>Last Name</td>
+	<td><input type="text" placeholder="Enter your last name" name="Last_name" /></td>
+	</tr>
+	
+	<tr>
+	<td>E-mail</td>
+	<td><input type="text" placeholder="Enter your E-mail" name="email" /></td>
+	</tr>
+	
+	<tr>
+	<td>Date of birth</td>
+	<td><input type="date" name="dob" /></td>
+	</tr>
+	
+	<tr>
+	<td>Contact No</td>
+	<td><input type="text" placeholder="xxxxxxxxxxx" name="Contact No" /></td>
+	</tr>
+	
+	<tr>
+	<td>Gender</td>
+	<td><input type="radio" name="Gender" value="Male" /> Male
+	<input type="radio" name="Gender" value="Female" /> Female
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Address</td>
+	<td><textarea name="Address" rows="5" cols="25" placeholder="Address"></textarea></td>
+	</tr>
+	
+	<tr>
+	<td>Pin Code</td>
+	<td><input type="Number" name="PinCode" maxlength="6" placeholder="xxxxxx"/>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>Hobbies</td>
+	<td>
+	<input type="checkbox" name="HobbyDrawing" value="Drawing" />
+	Drawing
+	<input type="checkbox" name="HobbySinging" value="Singing" />
+	Singing
+	<br/>
+	<input type="checkbox" name="HobbyDancing" value="Dancing" />
+	Dancing
+	<input type="checkbox" name="HobbyCooking" value="Cooking" />
+	Cooking
+	<br/>
+	<input type="checkbox" name="HobbySwimming" value="Swimming" />
+	Swimming
+	<input type="checkbox" name="HobbyTravelling" value="Travelling" />
+	Travelling
+	</td>
+	</tr>
+	<tr style="text-align:center;"><td colspan="2"><input type="submit" name="submit" style="width:50%" /></td></tr>
+	</table>
+	</form>
+</body>
+</html>
